@@ -1,5 +1,6 @@
 #Este será el código principal
 def desplegar_menu_principal():
+    """Procedimiento para desplegar el menú principal"""
     print("\n********************")
     print("** MENÚ PRINCIPAL **")
     print("********************")
@@ -9,6 +10,7 @@ def desplegar_menu_principal():
     print("X - SALIR")
 
 def identificar_pares(numero):
+    """UDF que identifica si un número es par o no"""
     return numero % 2 == 0
 
 
